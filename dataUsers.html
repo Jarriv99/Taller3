@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Usuario</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <label for="nombre">Nombre</label><br>
+    <input type="text" name="nombre"><br>
+    <label for="apellido">Apellidos</label><br>
+    <input type="text" name="apellido" maxlength=""><br>
+    <label for="pass">Contraseña</label><br>
+    <input type="password" name="pass"><br>
+    <label for="confpass">Confirme su contraseña</label><br>
+    <input type="password" name="confpass"><br>
+    <label for="ID">Identificación</label><br>
+    <select name="ID">
+        <option value="ti">TI</option>
+        <option value="cc">CC</option>
+        <option value="te">TE</option>
+    </select>
+    <input type="text"><br>
+    <label for="sexo">Sexo</label><br>
+    <input type="radio">Hombre
+    <br>
+    <input type="radio">Mujer
+    <br><br>
+    <label>Incluir mi foto</label><br>
+    <input type="file"><br><br>
+    <input type="checkbox">
+    <label>Estudiante...</label><br><br>
+    <fieldset>
+        <legend>Datos personales</legend>
+        Departamento<br>
+        <select name="depto">
+            <option value="none">-seleciona-</option>
+        </select><br><br>
+        Fecha de nacimiento<br>
+        <input type="text" name=dia_nacimiento value="" size="4">
+        de
+        <select name="month">
+            <option value="enero">Enero</option>
+            <option value="enero">Febrero</option>
+            <option value="enero">Marzo</option>
+            <option value="enero">Abril</option>
+            <option value="enero">Mayo</option>
+            <option value="enero">Junio</option>
+            <option value="enero">Julio</option>
+            <option value="enero">Agosto</option>
+            <option value="enero">Septiembre</option>
+            <option value="enero">Octubre</option>
+            <option value="enero">Noviembre</option>
+            <option value="enero">Diciembre</option>
+        </select>
+        de
+        <input type="text" nvalue="" size="4"><br><br>
+        <label for="tema_interes">Temas de interés</label><br>
+        <textarea rows="5" cols="50">
+            Administración de bases de Datos
+            Análisis y programación
+            Arquitectura
+            Calidad
+            ERP, CRM, Bussiness Interlligence        
+        </textarea>
+    </fieldset><br>
+    <button>Guardar cambios</button>
+    <input type="reset" name="borrar" value="Borrar los datos introducidos"/>
+    
+
+</body>
+</html>
